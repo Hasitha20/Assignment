@@ -16,6 +16,7 @@ function App() {
        {/* <Dashboad/> */}
        <Navbar/>
         <AddItem/>
+         
        <Route path ="/stock" exact component={AddStock}  />  
        <Route path ="/item" exact component={AddTable}  />  
         
